@@ -133,8 +133,14 @@ Using the search feature takes the user to the Recommendations page. Users can f
 ## Competitor 2: [Marine Conservation Society Good Fish Guide](https://www.mcsuk.org/goodfishguide/)
 My second competitor site is [Marine Conservation Society Good Fish Guide](https://www.mcsuk.org/goodfishguide/), a sustainable seafood advisory list with a search feature run by the Marine Conservation Society, a UK charity focused on marine conservation.
 
-Using the search feature takes the user to the Recommendations page. Users can filter their searches with criteria like species, harvest method, country/region, body of water, and recommendation level. 
-![Seafood Watch Recommendations page](https://user-images.githubusercontent.com/40257341/193736371-6e53f995-38d9-41bd-8c6d-c5b4b25f86af.png)
+It has two main features: the first is "Explore all seafood", which by default displays seafood in alphabetical order and has a search feature with filters.
+![image](https://user-images.githubusercontent.com/40257341/194002422-1397d3ff-718e-4eee-be28-f91535c958f2.png)
+![image](https://user-images.githubusercontent.com/40257341/194002498-d3b1e08d-a6f7-4b84-8b15-a77acea428e7.png)
+
+The second feature is a beta tool called "Seafood checker." It lets users find specific information about seafood through asking a series of questions.
+![image](https://user-images.githubusercontent.com/40257341/194002729-87a4b4af-7451-4f5a-8b39-dd293ab4ddae.png)
+![image](https://user-images.githubusercontent.com/40257341/194002775-c17273a4-1423-4294-80d9-a21611f1aaad.png)
+![image](https://user-images.githubusercontent.com/40257341/194002839-3d41c4e8-a6bc-4978-ac23-fc37ba12ae77.png)
 
 ### Heuristic Evaluation
 
