@@ -57,6 +57,12 @@ Using the search feature takes the user to the Recommendations page. Users can f
 **Severity level:** 1
 ![image](https://user-images.githubusercontent.com/40257341/193950530-83dbb127-2357-4773-950a-0f264fae1aa9.png)
 
+**Evaluation:** For species without members in the "avoid" category, the text under "AVOID" is "We hope you enjoy the [species name]!" which is very confusing. I found that there weren't any species in the "avoid" category by trying to filter for "avoid" and getting no results.
+**Recommendation:** State cleary that there aren't examples to avoid.
+**Severity level:** 3
+![image](https://user-images.githubusercontent.com/40257341/193986366-11cc5f37-efe5-4cd3-83ad-18c5960ba07f.png)
+![image](https://user-images.githubusercontent.com/40257341/193986405-0397c964-3fcf-46b1-9425-bf63d038ef1b.png)
+
 #### 3. User control and freedom
 
 **Evaluation:** The main actions users would take is making searches. There aren't really consequences for making an incorrect search -- the user can easily search again. "Undo" doesn't really make sense in this context. The other mistake users could make is misclick and go to a page they weren't intending to, but the browser back 1 page button is sufficient for that.\
@@ -70,6 +76,10 @@ Using the search feature takes the user to the Recommendations page. Users can f
 ![Seafood Watch home page](https://user-images.githubusercontent.com/40257341/193717234-681ca2fa-2feb-4eb2-b10f-e3693e089c59.png)
 ![image](https://user-images.githubusercontent.com/40257341/193953336-ae91b730-5f52-45ab-a692-65894b963d43.png)
 
+![image](https://user-images.githubusercontent.com/40257341/193950225-41604888-5bdb-42a7-9480-4fbcc345ded5.png)
+![image](https://user-images.githubusercontent.com/40257341/193950311-90c70f86-2ea6-4832-949b-32e601ddea73.png)
+
+
 **Evaluation:** The general search bar for the entire website is formatted differently on the search page compared to how it looks in the menu bar.\
 **Recommendation:** Match the search bar in the menu bar to the one on the search page since that one is more informative with "Name or keyword" included.\
 **Severity level:** 1
@@ -82,8 +92,8 @@ Using the search feature takes the user to the Recommendations page. Users can f
 
 #### 6. Recognition rather than recall
 
-**Evaluation:** Due to the design of the entries, it is difficult to distinguish how entries are different. There is a lot of redundant information -- for example, the list of what abalone is also known is the exact same for every one of the abalone entries. Additionally, only a couple entries can be displayed at once, making it even more difficult to cross reference them. What’s worse, Seafood Watch’s app support got discontinued so mobile users must use the browser website on their phones, which shows even less information per viewport. \
-**Recommendation:** Reduce the amount of information displayed per entry so more entries can be seen at once. Group the results for the same recommendation level and emphasize how they are different from each other instead of displaying information that is the same across entries. 
+**Evaluation:** Only a couple entries can be displayed at once, and it is hard for users to distinguish them from one another. It gets worse with users having to scroll up/down to reference other entries. \
+**Recommendation:** More entries should be visible at once for the users to be able to reference them.\
 **Severity level:** 3
 ![Search result displaying abalone](https://user-images.githubusercontent.com/40257341/193736449-d06f054f-1fd0-4b62-a390-3cebda805f49.png)
 ![Search result displaying abalone](https://user-images.githubusercontent.com/40257341/193736487-4169a97f-dc7a-4b74-a1ca-d11da64f2308.png)
@@ -94,29 +104,32 @@ Using the search feature takes the user to the Recommendations page. Users can f
 **Severity level:** 2
 
 #### 8. Aesthetic and minimalist design
-**Evaluation:** too cluttered idk \
-**Recommendation:** \
-**Severity level:** \
-
-#### 9. Help users recognize, diagnose, and recover from errors
-**Evaluation:** \
-**Recommendation:** \
-**Severity level:** \
-
-#### 10. Help and documentation
-**Evaluation:** The recommendations search page has instructions for how to use search.\
-**Recommendation:** \
-**Severity level:** \
+**Evaluation:** The design is aesthetic but not minimalist -- it overloads the user with information. Due to the design of the entries, it is difficult to distinguish how entries are different. There is a lot of redundant information -- for example, the list of what abalone is also known is the exact same for every one of the abalone entries. Additionally, only a couple entries can be displayed at once, making it even more difficult to cross reference them. What’s worse, Seafood Watch’s app support got discontinued so mobile users must use the browser website on their phones, which shows even less information per viewport.\
+**Recommendation:** Reduce the amount of information displayed per entry so more entries can be seen at once. Group the results for the same recommendation level and emphasize how they are different from each other instead of displaying information that is the same across entries. \
+**Severity level:** 3
 
 
-Clicking on an entry takes the user to a page with additional details, including the Seafood Watch Recommendation score.
+**Evaluation:** Clicking on an entry takes the user to a page with additional details, including the Seafood Watch Recommendation score. However, there is too much information to be displayed in one screen.\
+**Recommendation:** Condense the formatting so more information can be seen at once.\
+**Severity level:** 2
 ![image](https://user-images.githubusercontent.com/40257341/193737401-ecb686a6-9f24-4bca-9217-891148f78fd7.png)
 ![image](https://user-images.githubusercontent.com/40257341/193737504-c25cca1a-3b91-4934-8608-dadb74165713.png)
 
-![image](https://user-images.githubusercontent.com/40257341/193950225-41604888-5bdb-42a7-9480-4fbcc345ded5.png)
+
+#### 9. Help users recognize, diagnose, and recover from errors
+**Evaluation:** This is similar to my evaluation for error prevention. There is no spell check or search suggestion, so users might be confused if they see no results when they misspell something.\
+**Recommendation:** Add in spellcheck and suggestions for what the user might have meant to have typed.\
+**Severity level:** 2
+![image](https://user-images.githubusercontent.com/40257341/193987167-b88d6df9-6cb8-43c0-bf9d-fbbd97ad81fe.png)
 
 
-![image](https://user-images.githubusercontent.com/40257341/193950311-90c70f86-2ea6-4832-949b-32e601ddea73.png)
+#### 10. Help and documentation
+**Evaluation:** The recommendations search page has instructions for how to use search. It also has details explaining what the recommendation levels mean.\
+**Recommendation:** It would be helpful to have an easy-to-find page with details about each harvesting method. This information can be found viewing details for a particular species, but it would be good to have a consolidated reference sheet.\
+**Severity level:** 2\
+![image](https://user-images.githubusercontent.com/40257341/193977873-7cc76f9f-1d7a-414a-9595-86ebb8647c2e.png)
+
+
 
 
 
