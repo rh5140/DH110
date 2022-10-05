@@ -57,8 +57,8 @@ Using the search feature takes the user to the Recommendations page. Users can f
 **Severity level:** 1
 ![image](https://user-images.githubusercontent.com/40257341/193950530-83dbb127-2357-4773-950a-0f264fae1aa9.png)
 
-**Evaluation:** For species without members in the "avoid" category, the text under "AVOID" is "We hope you enjoy the [species name]!" which is very confusing. I found that there weren't any species in the "avoid" category by trying to filter for "avoid" and getting no results.
-**Recommendation:** State cleary that there aren't examples to avoid.
+**Evaluation:** For species without members in the "avoid" category, the text under "AVOID" is "We hope you enjoy the [species name]!" which is very confusing. I found that there weren't any species in the "avoid" category by trying to filter for "avoid" and getting no results.\
+**Recommendation:** State cleary that there aren't examples to avoid.\
 **Severity level:** 3
 ![image](https://user-images.githubusercontent.com/40257341/193986366-11cc5f37-efe5-4cd3-83ad-18c5960ba07f.png)
 ![image](https://user-images.githubusercontent.com/40257341/193986405-0397c964-3fcf-46b1-9425-bf63d038ef1b.png)
@@ -130,8 +130,86 @@ Using the search feature takes the user to the Recommendations page. Users can f
 ![image](https://user-images.githubusercontent.com/40257341/193977873-7cc76f9f-1d7a-414a-9595-86ebb8647c2e.png)
 
 
+## Competitor 2: [Marine Conservation Society Good Fish Guide](https://www.mcsuk.org/goodfishguide/)
+My second competitor site is [Marine Conservation Society Good Fish Guide](https://www.mcsuk.org/goodfishguide/), a sustainable seafood advisory list with a search feature run by the Marine Conservation Society, a UK charity focused on marine conservation.
+
+Using the search feature takes the user to the Recommendations page. Users can filter their searches with criteria like species, harvest method, country/region, body of water, and recommendation level. 
+![Seafood Watch Recommendations page](https://user-images.githubusercontent.com/40257341/193736371-6e53f995-38d9-41bd-8c6d-c5b4b25f86af.png)
+
+### Heuristic Evaluation
+
+#### 1. Visibility of System Status
+
+**Evalution:** \
+**Recommendation:** \
+**Severity level:** 1
+
+**Evalution:** \
+**Recommendation:** \
+**Severity level:** 1
+
+#### 2. Match between system and the real world
+
+**Evaluation:** \
+**Recommendation:** \
+**Severity level:**
+
+**Evaluation:** 
+**Recommendation:** 
+**Severity level:** 
+
+#### 3. User control and freedom
+
+**Evaluation:** The main actions users would take is making searches. There aren't really consequences for making an incorrect search -- the user can easily search again. "Undo" doesn't really make sense in this context. The other mistake users could make is misclick and go to a page they weren't intending to, but the browser back 1 page button is sufficient for that.\
+**Recommendation:** N/A\
+**Severity level:** N/A
+
+#### 4. Consistency and standards
+**Evaluation:** \
+**Recommendation:**\
+**Severity level:** 
 
 
+**Evaluation:** \
+**Recommendation:** \
+**Severity level:** 
 
+#### 5. Error prevention
+**Evaluation:** \
+**Recommendation:**\
+**Severity level:** 
+
+#### 6. Recognition rather than recall
+
+**Evaluation:**  \
+**Recommendation:** \
+**Severity level:** 
+
+#### 7. Flexibility and efficiency of use
+**Evaluation:** \
+**Recommendation:**  \
+**Severity level:**  \
+
+#### 8. Aesthetic and minimalist design
+**Evaluation:** \
+**Recommendation:** \
+**Severity level:** 3
+
+
+**Evaluation:** \
+**Recommendation:** \
+**Severity level:** 
+
+
+#### 9. Help users recognize, diagnose, and recover from errors
+**Evaluation:** \
+**Recommendation:** \
+**Severity level:** 
+
+
+#### 10. Help and documentation
+**Evaluation:** \
+**Recommendation:** \
+**Severity level:** \
 
 
