@@ -33,7 +33,7 @@ I will conduct a heuristic evaluation of two such websites in this assignment us
 ## Competitor 1: [Monterey Bay Aquarium Seafood Watch](https://www.seafoodwatch.org/)
 My first competitor site is [Seafood Watch](https://www.seafoodwatch.org/), a sustainable seafood advisory list with a search feature. It is a program run by the Monterey Bay Aquarium that reviews the impact of fisheries and aquaculture on marine and freshwater ecosystems todevelop a scoring called the Seafood Watch Recommendation.
 
-Using the search feature takes the user to the Recommendations page. Users can filter their searches with criteria like species, harvest method, country/region, body of water, and recommendation level. 
+Using the search feature takes the user to the Recommendations page. Users can filter their searches with criteria like species, harvest method, country/region, body of water, and recommendation level. The website is extremely informative and stylish, but it is difficult to use to find the desired information.
 ![Seafood Watch Recommendations page](https://user-images.githubusercontent.com/40257341/193736371-6e53f995-38d9-41bd-8c6d-c5b4b25f86af.png)
 
 ### Heuristic Evaluation
@@ -142,80 +142,93 @@ The second feature is a beta tool called "Seafood checker." It lets users find s
 ![image](https://user-images.githubusercontent.com/40257341/194002775-c17273a4-1423-4294-80d9-a21611f1aaad.png)
 ![image](https://user-images.githubusercontent.com/40257341/194002839-3d41c4e8-a6bc-4978-ac23-fc37ba12ae77.png)
 
+The website has a clean design and is easy to use to find desired information, especially with the "Seafood checker" tool. I particularly appreciate that it provides alternative seafood options.
+
 ### Heuristic Evaluation
 
 #### 1. Visibility of System Status
 
-**Evalution:** \
-**Recommendation:** \
+**Evalution:** There is a fish icon that fills with green while the page is loading.\
+**Recommendation:** I don't always see the green fill up the fish, so maybe that animation needs to be adjusted.\
 **Severity level:** 1
+![image](https://user-images.githubusercontent.com/40257341/194003029-b374a991-8a3c-44d0-9179-24b7a4638a6f.png)
 
-**Evalution:** \
-**Recommendation:** \
+
+**Evalution:** There is no visual indication in the menu bar or with header text whether you're on the "Explore all seafood" or "Seafood checker" page. The only cue that the buttons are interactable are because the cursor changes into a pointer when hovering over.\
+**Recommendation:** Highlight the buttons when hovered over, and highlight the button to match with the currently displayed page.\
 **Severity level:** 1
 
 #### 2. Match between system and the real world
 
-**Evaluation:** \
-**Recommendation:** \
-**Severity level:**
+**Evaluation:** The two menu options are "Explore all seafood" and "Seafood checker," the meaning of which is not obvious without context.\
+**Recommendation:** One idea is to rename "Explore all seafood" to "Seafood search". I don't see how I could rename "Seafood checker", but maybe have a home page with context about the site so people can understand what each page does. The below image is on the sidebar of a seafood entry, and I think it would be good for it to be more prominent on the site, not only displayed after finding a specific seafood.\
+**Severity level: 2**
+![image](https://user-images.githubusercontent.com/40257341/194006296-6db76a40-e838-48f0-9a4a-5837dc13d392.png)
 
-**Evaluation:** 
-**Recommendation:** 
-**Severity level:** 
 
 #### 3. User control and freedom
 
-**Evaluation:** The main actions users would take is making searches. There aren't really consequences for making an incorrect search -- the user can easily search again. "Undo" doesn't really make sense in this context. The other mistake users could make is misclick and go to a page they weren't intending to, but the browser back 1 page button is sufficient for that.\
+**Evaluation:** In the "Explore all seafood" page, this isn't really relevant because it is for searching.\
 **Recommendation:** N/A\
 **Severity level:** N/A
 
+**Evaluation:* When using the "Seafood checker," there are options for the user to go back or to start again.\
+**Recommendation:** I think the site does a good job already, but the options could be more prominent on the screen by being larger.\
+**Severity level:** 1
+![image](https://user-images.githubusercontent.com/40257341/194004001-77e5f314-3f65-4b7b-a4b4-42804b454691.png)
+
 #### 4. Consistency and standards
-**Evaluation:** \
-**Recommendation:**\
-**Severity level:** 
+**Evaluation:** The size and boldness of text is not consistent across the site.\
+**Recommendation:** Reduce the variation of text styles. Make sure text that serves the same purpose is formatted the same (for example, "Good Fish Guide" on the "Explore all seafood page" and "How good is your fish or seafood?" on the "Seafood checker" page should be changed to be the same size).\
+**Severity level: 1** 
 
 
-**Evaluation:** \
-**Recommendation:** \
-**Severity level:** 
+**Evaluation:** There exists simultaneously a menu bar and a dropdown menu.\
+**Recommendation:** Choose one of the two to commit to. It is confusing to have both and to have different options on the two.\
+**Severity level: 2** 
+![image](https://user-images.githubusercontent.com/40257341/194004591-585c5bb5-edd8-4514-bd0c-f5192790c3aa.png)
+
 
 #### 5. Error prevention
-**Evaluation:** \
-**Recommendation:**\
-**Severity level:** 
+**Evaluation:** The text input box does not have spell check or search recommendations.\
+**Recommendation:** Add spell check and search recommendations.\
+**Severity level: 1** 
 
 #### 6. Recognition rather than recall
 
-**Evaluation:**  \
-**Recommendation:** \
-**Severity level:** 
+**Evaluation:** After clicking on a seafood option, all the different ratings are displayed. There are options to filter amongst these ratings, and since many ratings can be seen at once, the user can easily compare them and see how they're different from one another.\
+**Recommendation:** Make the boxes consistent sizes. The ones without certification don't have the certification field at all, but that makes it so the boxes are smaller, which looks strange.\
+**Severity level: 1** 
+![image](https://user-images.githubusercontent.com/40257341/194005279-e0ab3c01-3648-4373-baa4-93e2f4e59554.png)
+
 
 #### 7. Flexibility and efficiency of use
-**Evaluation:** \
-**Recommendation:**  \
-**Severity level:**  \
+**Evaluation:** There are two ways to find information on seafood: through the search feature and through the seafood checker feature.\
+**Recommendation:** I like that there are two ways of finding information! Again, I think it would be good to give more context about how each tool works. The below image is at the very bottom of the "Explore seafood ratings" page, so it is not easy to notice that the "Seafood checker" tool could be helpful to the user.\
+**Severity level:**  1\
+![image](https://user-images.githubusercontent.com/40257341/194006930-2ef28b66-e0d5-4baf-9387-c66b33adc536.png)
+
 
 #### 8. Aesthetic and minimalist design
-**Evaluation:** \
-**Recommendation:** \
-**Severity level:** 3
-
-
-**Evaluation:** \
-**Recommendation:** \
-**Severity level:** 
+**Evaluation:** The website has a very strong visual identity, with vector drawings for each type of seafood. It gives a brief overview of the species and only after clicking the species is more informaton provided, which makes it much easier for useres to look through and compare multiple entries. \
+**Recommendation:** There is information that is not unique to the species in the sidebar ("How our ratings work" and "Seafood checker"), which takes the focus away from the information about the seafood, which is the purpose of visiting the page. There should be more of a focus on information relevant to the seafood.\
+**Severity level:** 1
+![image](https://user-images.githubusercontent.com/40257341/194007388-c115166a-0d3f-43e2-bf55-6d19d92635a0.png)
 
 
 #### 9. Help users recognize, diagnose, and recover from errors
-**Evaluation:** \
-**Recommendation:** \
-**Severity level:** 
+**Evaluation:** If a user misspells a seafood, there are still search results that are somewhat similar to the misspelling. Additionally, if no results are found, there is a graphic that points users to try the "Seafood checker" instead.\
+**Recommendation:** It is not clear how the site decides to recommend results based on the misspellings. I would like there to be some indication of why a result shows up despite the misspelling. For example, `abaloneyyyy` is recognizable as `abalone`, but adding an extra `y` at the end makes it unrecognizable by the site.\
+**Severity level:** 2\
+![image](https://user-images.githubusercontent.com/40257341/194008180-34861320-3839-4a9f-9c54-06bcdd343b5b.png)
+![image](https://user-images.githubusercontent.com/40257341/194008510-f58cac16-c539-4896-b0f4-1ca57af46aba.png)
 
 
 #### 10. Help and documentation
-**Evaluation:** \
-**Recommendation:** \
-**Severity level:** \
+**Evaluation:** In the "Seafood checker", there is a little tooltip users can open to help them with finding information about seafood. The site also recommends either the "Explore all seafood" or "Seafood checker" tools when away from those pages.\
+**Recommendation:** I think there should be a dedicated place for information instead of scattered around the site.\
+**Severity level:** 1\
+![image](https://user-images.githubusercontent.com/40257341/194007795-88cdac6f-0ba7-494e-8a23-fac33980e141.png)
+
 
 
