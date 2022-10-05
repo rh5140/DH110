@@ -12,14 +12,14 @@ I will conduct a heuristic evaluation of two such websites in this assignment us
 | # | Heuristic | Description |
 | - | - | - |
 | 1 | Visibility of system status | Inform user what is happening and provide feedback for actions |
-| 2 | Match between system and the real world | Design |
+| 2 | Match between system and the real world | Use language familiar to the user and design analagously to the real world |
 | 3 | User control and freedom | Allow users to make mistakes and undo and redo actions easily |
 | 4 | Consistency and standards | Design based on well-known standards and to have internal consistency |
-| 5 | Error prevention | Reduce likelihood user makes mistake |
+| 5 | Error prevention | Reduce likelihood user makes mistakes |
 | 6 | Recognition rather than recall | Provide references for user to reduce cognitive load |
 | 7 | Flexibility and efficiency of use | Provide several avenues to complete the same task |
 | 8 | Aesthetic and minimalist design | Focus design around what is relevant to the user |
-| 9 | Help users recognize, diagnose, and recover from errors | Identify problems and how to solve them |
+| 9 | Help users recognize, diagnose, and recover from errors | Identify problems and tell users how to solve them |
 | 10 | Help and documentation | Provide information to help user complete task (ideally not needed) |
 
 ### [Severity Ratings for Usability Problems](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
@@ -33,20 +33,8 @@ I will conduct a heuristic evaluation of two such websites in this assignment us
 ## Competitor 1: [Monterey Bay Aquarium Seafood Watch](https://www.seafoodwatch.org/)
 My first competitor site is [Seafood Watch](https://www.seafoodwatch.org/), a sustainable seafood advisory list with a search feature. It is a program run by the Monterey Bay Aquarium that reviews the impact of fisheries and aquaculture on marine and freshwater ecosystems todevelop a scoring called the Seafood Watch Recommendation.
 
-The home page displays the search feature prominently.
-![Seafood Watch home page](https://user-images.githubusercontent.com/40257341/193717234-681ca2fa-2feb-4eb2-b10f-e3693e089c59.png)
-
 Using the search feature takes the user to the Recommendations page. Users can filter their searches with criteria like species, harvest method, country/region, body of water, and recommendation level. 
 ![Seafood Watch Recommendations page](https://user-images.githubusercontent.com/40257341/193736371-6e53f995-38d9-41bd-8c6d-c5b4b25f86af.png)
-
-Due to the design of the entries, it is difficult to distinguish how entries are different. Additionally, only a couple entries can be displayed at once, making it even more difficult to cross reference them. What’s worse, Seafood Watch’s app support got discontinued so mobile users must use the browser website on their phones, which shows even less information per viewport.
-![Search result displaying abalone](https://user-images.githubusercontent.com/40257341/193736449-d06f054f-1fd0-4b62-a390-3cebda805f49.png)
-![Search result displaying abalone](https://user-images.githubusercontent.com/40257341/193736487-4169a97f-dc7a-4b74-a1ca-d11da64f2308.png)
-
-Clicking on an entry takes the user to a page with additional details, including the Seafood Watch Recommendation score.
-![image](https://user-images.githubusercontent.com/40257341/193737401-ecb686a6-9f24-4bca-9217-891148f78fd7.png)
-![image](https://user-images.githubusercontent.com/40257341/193737504-c25cca1a-3b91-4934-8608-dadb74165713.png)
-
 
 ### Heuristic Evaluation
 
@@ -61,6 +49,74 @@ Clicking on an entry takes the user to a page with additional details, including
 **Recommendation:** The color of the loading icon doesn't match the prominent colors on the site, so I would change it to one of those colors instead.\
 **Severity level:** 1
 ![image](https://user-images.githubusercontent.com/40257341/193742430-9a3e3be4-f35a-449a-bcfe-7344fa3712c6.png)
+
+#### 2. Match between system and the real world
+
+**Evaluation:** The menu bar is categorized into "Recommendations," "Seafood Basics," "For Business," "Our Projects," and "Collaborations." These terms are easy to understand on their own. However, the subcategories for "Recommendations" don't seem like they all belong there. For example, "Join the movement" is out of place.\
+**Recommendation:** Add a separate tab for getting involved instead of nesting it under "Recommendations."\
+**Severity level:** 1
+![image](https://user-images.githubusercontent.com/40257341/193950530-83dbb127-2357-4773-950a-0f264fae1aa9.png)
+
+#### 3. User control and freedom
+
+**Evaluation:** The main actions users would take is making searches. There aren't really consequences for making an incorrect search -- the user can easily search again. "Undo" doesn't really make sense in this context. The other mistake users could make is misclick and go to a page they weren't intending to, but the browser back 1 page button is sufficient for that.\
+**Recommendation:** N/A\
+**Severity level:** N/A
+
+#### 4. Consistency and standards
+**Evaluation:** The home page displays the recommendations search feature prominently. On the actual recommendations page, the recommendations search works a little differently from the one on the home page -- it has a drop-down menu with both the option to input your own search or choosing from "popular" selections.\
+**Recommendation:** Rather than have a different format for recommendations search on the home page, make it a text box with a button that takes the user to the recommendations page instead since that is how it is done for the other features on the home page. \
+**Severity level:** 2
+![Seafood Watch home page](https://user-images.githubusercontent.com/40257341/193717234-681ca2fa-2feb-4eb2-b10f-e3693e089c59.png)
+![image](https://user-images.githubusercontent.com/40257341/193953336-ae91b730-5f52-45ab-a692-65894b963d43.png)
+
+**Evaluation:** The general search bar for the entire website is formatted differently on the search page compared to how it looks in the menu bar.\
+**Recommendation:** Match the search bar in the menu bar to the one on the search page since that one is more informative with "Name or keyword" included.\
+**Severity level:** 1
+![image](https://user-images.githubusercontent.com/40257341/193953630-839c5a15-926e-4818-b17e-224dfd8bcd0b.png)
+
+#### 5. Error prevention
+**Evaluation:** The text input box does not have spell check or search recommendations. \
+**Recommendation:** Add spell check and search recommendations. \
+**Severity level:** 2
+
+#### 6. Recognition rather than recall
+
+**Evaluation:** Due to the design of the entries, it is difficult to distinguish how entries are different. There is a lot of redundant information -- for example, the list of what abalone is also known is the exact same for every one of the abalone entries. Additionally, only a couple entries can be displayed at once, making it even more difficult to cross reference them. What’s worse, Seafood Watch’s app support got discontinued so mobile users must use the browser website on their phones, which shows even less information per viewport. \
+**Recommendation:** Reduce the amount of information displayed per entry so more entries can be seen at once. Group the results for the same recommendation level and emphasize how they are different from each other instead of displaying information that is the same across entries. 
+**Severity level:** 3
+![Search result displaying abalone](https://user-images.githubusercontent.com/40257341/193736449-d06f054f-1fd0-4b62-a390-3cebda805f49.png)
+![Search result displaying abalone](https://user-images.githubusercontent.com/40257341/193736487-4169a97f-dc7a-4b74-a1ca-d11da64f2308.png)
+
+#### 7. Flexibility and efficiency of use
+**Evaluation:** There are several places to search for recommendations: on the home page, on the recommendations page, and using the search bar in the menu bar. The recommendations search has ample options for filtering. The general search doesn't have any and displays recommendations at the top (without recommendation filters) and other pages that match the search query below. \
+**Recommendation:** Add a filter system for the general search page. \
+**Severity level:** 2
+
+#### 8. Aesthetic and minimalist design
+**Evaluation:** too cluttered idk \
+**Recommendation:** \
+**Severity level:** \
+
+#### 9. Help users recognize, diagnose, and recover from errors
+**Evaluation:** \
+**Recommendation:** \
+**Severity level:** \
+
+#### 10. Help and documentation
+**Evaluation:** The recommendations search page has instructions for how to use search.\
+**Recommendation:** \
+**Severity level:** \
+
+
+Clicking on an entry takes the user to a page with additional details, including the Seafood Watch Recommendation score.
+![image](https://user-images.githubusercontent.com/40257341/193737401-ecb686a6-9f24-4bca-9217-891148f78fd7.png)
+![image](https://user-images.githubusercontent.com/40257341/193737504-c25cca1a-3b91-4934-8608-dadb74165713.png)
+
+![image](https://user-images.githubusercontent.com/40257341/193950225-41604888-5bdb-42a7-9480-4fbcc345ded5.png)
+
+
+![image](https://user-images.githubusercontent.com/40257341/193950311-90c70f86-2ea6-4832-949b-32e601ddea73.png)
 
 
 
