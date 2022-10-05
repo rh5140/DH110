@@ -33,10 +33,13 @@ I will conduct a heuristic evaluation of two such websites in this assignment us
 ## Competitor 1: [Monterey Bay Aquarium Seafood Watch](https://www.seafoodwatch.org/)
 My first competitor site is [Seafood Watch](https://www.seafoodwatch.org/), a sustainable seafood advisory list with a search feature. It is a program run by the Monterey Bay Aquarium that reviews the impact of fisheries and aquaculture on marine and freshwater ecosystems todevelop a scoring called the Seafood Watch Recommendation.
 
-Using the search feature takes the user to the Recommendations page. Users can filter their searches with criteria like species, harvest method, country/region, body of water, and recommendation level. The website is extremely informative and stylish, but it is difficult to use to find the desired information.
+Using the search feature takes the user to the Recommendations page. Users can filter their searches with criteria like species, harvest method, country/region, body of water, and recommendation level.
 ![Seafood Watch Recommendations page](https://user-images.githubusercontent.com/40257341/193736371-6e53f995-38d9-41bd-8c6d-c5b4b25f86af.png)
 
 ### Heuristic Evaluation
+
+#### Overall evaluation
+The website is extremely informative and stylish, but it is difficult to use to find the desired information. The website overloads the user with options and information and makes it hard to compare between different search results. Additionally, it only informs the user whether their seafood choice is unsustainable or not and can only recommend other options within the same seafood species, which is limiting because the user might be in a situation where the unsustainable choice is the only version of that seafood available to them. I do appreciate that the website displays an image of each seafood and also alternate names for them.
 
 #### 1. Visibility of System Status
 
@@ -142,9 +145,11 @@ The second feature is a beta tool called "Seafood checker." It lets users find s
 ![image](https://user-images.githubusercontent.com/40257341/194002775-c17273a4-1423-4294-80d9-a21611f1aaad.png)
 ![image](https://user-images.githubusercontent.com/40257341/194002839-3d41c4e8-a6bc-4978-ac23-fc37ba12ae77.png)
 
-The website has a clean design and is easy to use to find desired information, especially with the "Seafood checker" tool. I particularly appreciate that it provides alternative seafood options.
-
 ### Heuristic Evaluation
+
+#### Overall evaluation
+The website has a clean design with a strong visual identity. It has two ways to find the desired information, and the "Seafood checker" tool takes the users step by step to figure out whether a seafood species is sustainable. I particularly appreciate that it provides alternative seafood options across different species, which makes it a lot easier for users to figure out alternatives to buy when out shopping. I like the vector art of each seafood and condensed the information is in the initial search results, with the information expanded only after the user focuses on a specific species.
+
 
 #### 1. Visibility of System Status
 
